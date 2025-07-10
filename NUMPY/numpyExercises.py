@@ -11,7 +11,6 @@ print(ndarray_numbers)
 matrix_unos = np.ones((3, 3))
 print(matrix_unos)
  
-
 #ndarray range values  0 to 9
 array_1 = np.arange(0,10)
 print(array_1) 
@@ -20,7 +19,6 @@ print(array_1)
 r_array = np.random.randint (0, 10, size=5)
 print(r_array) 
  
-
 #b. Matrix 3x3 boolean True value
 matrix_bool = np.full((3, 3), True, dtype=bool)
 print(matrix_bool) 
@@ -69,7 +67,6 @@ print("\n2D Matrix:\n", matrix_2D)
 print("2D Vector:\n", vector_2D)
 print("Matrix-Vector Multiplication (np.matmul):\n", product_2D)
 
-
 #a. Maximum and Minimum
 # Create a one-dimensional array with random integers
 array1D = np.random.randint(0, 100, size=10)
@@ -99,7 +96,6 @@ array_linspace = np.linspace(0, 1, num=10)
 
 # Output the result
 print("Equally spaced array using np.linspace():", array_linspace)
-
 
 #indexing and slicing
 #a. 
