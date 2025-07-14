@@ -46,7 +46,7 @@ plt.show()
 """
 
 # Read the CSV file (adjust the name or path if needed)
-df = pd.read_csv("SCIPY\Salary_Data.csv")
+df = pd.read_csv("Salary_Data.csv")
 
 # Select only numeric columns
 df_numericas = df.select_dtypes(include='number')
